@@ -81,3 +81,10 @@ a:hover {
 h2 {
     margin: 130px;
 }
+
+h3 {
+    color: #043c7b;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
