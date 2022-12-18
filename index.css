@@ -1,3 +1,83 @@
-html{
+html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background: #faf2f3;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    left : 0;   
+    width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+/* ===============================*/
+.main {
+    margin-top: 0px;
+    left : 0;
+}
+
+p {
+    margin-left : 100px;   
+    margin-top: 0px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+h1{
+    color: #043c7b;
+    margin-left:100px;
+    margin-top: 70px;
+}
+
+ul {
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+a {
+    color: #043c7b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 200px;
 }
