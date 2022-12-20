@@ -21,24 +21,29 @@ body {
     top: 0;
     left : 0;   
     width: 100%;
+    padding: 10px 100px;
+    font-size: 16px;
+    vertical-align: middle;
 }
 
 /* Links inside the navbar */
 .navbar a {
     float: left;
-    display: block;
-    color: #f2f2f2;
+    display: inline;
+    border-right:1px inset rgb(185, 188, 199);
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 100px;
     text-decoration: none;
+    height: 28px;
+    vertical-align: middle;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #ddd;
+    background : rgb(185, 188, 199);
     color: black;
 }
-
 
 
 .home-header {
@@ -59,7 +64,8 @@ body {
 .home-header:before {
     content: '';
     /* background: <ICI>; */
-    opacity: 0.8;
+    opacity: 0.7;
+    background-color: #223346;
     height: 100%;
     top: 0;
     left: 0;
@@ -70,7 +76,102 @@ body {
 
 .home-header > h1 {
     text-align: center;
-    color: green;
+    color: rgb(239, 244, 254);
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+.home-header > p {
+    text-align: center;
+    color: rgb(239, 244, 254);
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.home-header-contact {
+    z-index: -2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('assets/img/planete.jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 3em;
+    position: relative;
+    
+    
+    font-size: xx-large;
+}
+
+.home-header-contact:before {
+    content: '';
+    /* background: <ICI>; */
+    opacity: 0.7;
+    background-color: #223346;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.home-header-contact > h1 {
+    text-align: center;
+    color: rgb(239, 244, 254);
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+.home-header-contact > p {
+    text-align: center;
+    color: rgb(239, 244, 254);
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.home-header-services {
+    z-index: -2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('assets/img/holograme.jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 3em;
+    position: relative;
+    
+    
+    font-size: xx-large;
+}
+
+.home-header-services:before {
+    content: '';
+    /* background: <ICI>; */
+    opacity: 0.7;
+    background-color: #223346;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.home-header-services > h1 {
+    text-align: center;
+    color: rgb(239, 244, 254);
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+.home-header-services > p {
+    text-align: center;
+    color: rgb(239, 244, 254);
+    font-size: 25px;
+    margin-top: 20px;
 
 }
 
@@ -124,5 +225,6 @@ h3 {
 }
 .footer {
     position: relative;
-    bottom: -3px;
+    bottom: -10px;
 }
+
