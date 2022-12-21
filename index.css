@@ -1,68 +1,34 @@
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    margin: 0;  
-}
-
-.header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header {
     height: 200px;
     text-align: center;
     line-height: 200px;
     background: #faf2f3;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    left : 0;   
-    width: 100%;
-    padding: 10px 100px;
-    font-size: 16px;
-    vertical-align: middle;
-}
-
-/* Links inside the navbar */
-.navbar a {
-    float: left;
-    display: inline;
-    border-right:1px inset rgb(185, 188, 199);
-    color: white;
-    text-align: center;
-    padding: 0px 100px;
-    text-decoration: none;
-    height: 28px;
-    vertical-align: middle;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-    background : rgb(185, 188, 199);
-    color: black;
-}
-
-
-.home-header {
+  }
+  
+  .home-header {
     z-index: -2;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url('assets/img/buildings.jpg') no-repeat center;
+    background: url("assets/img/buildings.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 3em;
     position: relative;
-    
-    
+  
     font-size: xx-large;
-}
-
-.home-header:before {
-    content: '';
+  }
+  
+  .home-header:before {
+    content: "";
     /* background: <ICI>; */
     opacity: 0.7;
     background-color: #223346;
@@ -72,40 +38,37 @@ body {
     bottom: 0;
     right: 0;
     position: absolute;
-}
-
-.home-header > h1 {
+  }
+  
+  .home-header > h1 {
     text-align: center;
     color: rgb(239, 244, 254);
     margin-left: 0px;
     margin-bottom: 0px;
-
-}
-.home-header > p {
+  }
+  .home-header > p {
     text-align: center;
     color: rgb(239, 244, 254);
     font-size: 25px;
     margin-top: 20px;
-
-}
-
-.home-header-contact {
+  }
+  
+  .home-header-contact {
     z-index: -2;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url('assets/img/planete.jpg') no-repeat center;
+    background: url("assets/img/accord.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 3em;
     position: relative;
-    
-    
+  
     font-size: xx-large;
-}
-
-.home-header-contact:before {
-    content: '';
+  }
+  
+  .home-header-contact:before {
+    content: "";
     /* background: <ICI>; */
     opacity: 0.7;
     background-color: #223346;
@@ -115,40 +78,37 @@ body {
     bottom: 0;
     right: 0;
     position: absolute;
-}
-
-.home-header-contact > h1 {
+  }
+  
+  .home-header-contact > h1 {
     text-align: center;
     color: rgb(239, 244, 254);
     margin-left: 0px;
     margin-bottom: 0px;
-
-}
-.home-header-contact > p {
+  }
+  .home-header-contact > p {
     text-align: center;
     color: rgb(239, 244, 254);
     font-size: 25px;
     margin-top: 20px;
-
-}
-
-.home-header-services {
+  }
+  
+  .home-header-services {
     z-index: -2;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url('assets/img/holograme.jpg') no-repeat center;
+    background: url("assets/img/datacenter.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 3em;
     position: relative;
-    
-    
+  
     font-size: xx-large;
-}
-
-.home-header-services:before {
-    content: '';
+  }
+  
+  .home-header-services:before {
+    content: "";
     /* background: <ICI>; */
     opacity: 0.7;
     background-color: #223346;
@@ -158,73 +118,157 @@ body {
     bottom: 0;
     right: 0;
     position: absolute;
-}
-
-.home-header-services > h1 {
+  }
+  
+  .home-header-services > h1 {
     text-align: center;
     color: rgb(239, 244, 254);
     margin-left: 0px;
     margin-bottom: 0px;
-
-}
-.home-header-services > p {
+  }
+  .home-header-services > p {
     text-align: center;
     color: rgb(239, 244, 254);
     font-size: 25px;
     margin-top: 20px;
-
-}
-
-/* ===============================*/
-.main {
+  }
+  
+  /* ===============================*/
+  .main {
     margin-top: 0px;
-    left : 0;
-}
-
-p {
-    margin-left : 100px;   
+    left: 0;
+  }
+  
+  p {
+    margin-left: 100px;
     margin-top: 0px;
     margin-right: 100px;
     font-size: 20px;
-}
-
-img {
+  }
+  
+  img {
     width: 100%;
-}
-
-h1{
+  }
+  
+  h1 {
     color: #043c7b;
-    margin-left:100px;
+    margin-left: 100px;
     margin-top: 70px;
-}
-
-ul {
+  }
+  
+  ul {
     margin-left: 120px;
     font-size: 20px;
-}
-
-a {
+  }
+  
+  a {
     color: #043c7b;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-h2 {
-    margin: 130px;
-}
-
-h3 {
+  }
+  
+  h2 {
+    margin: 100px;
+  }
+  
+  h3 {
     color: #0290c8;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
     font-size: 40px;
-}
-.footer {
+  }
+  .footer {
     position: relative;
     bottom: -10px;
-}
-
+    width: 100%;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #333;
+    padding: 10px 0;
+    position: fixed;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: #d2e0ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all 0.5s;
+  }
+  nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* stroke */
+  nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: white;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  nav.fill ul li a {
+    transition: all 2s;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: ".";
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color: #333;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+  
